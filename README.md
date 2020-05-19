@@ -7,4 +7,6 @@ Open Source Launcher (originally made for NacionalRP)
 
 ### Still Working on READ.ME
 
+###### credits to: Ilyesou
+
 
