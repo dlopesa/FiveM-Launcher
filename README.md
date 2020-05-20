@@ -1,12 +1,25 @@
-# NacionalRP-Launcher
-Open Source Launcher (originally made for NacionalRP)
+# HOW TO HELP?
+ > FORK IT AND MAKE YOUR OWN CHANGES   
 
-# Social Media  
-## Discord: https://discord.gg/UFbVtWF  
-## Twitch: https://www.twitch.tv/dosermind  
+## Configuration
 
-### Still Working on READ.ME
+
+```javascript
+{
+ '                                   CONFIG
+    Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
+        Shell("Explorer.exe fivem://connect/localhost") 'SERVER IP
+        Shell("Explorer.exe ts3server://localhost") ' TEAMSPEAL IP
+        Me.Close()
+    End Sub
+
+    Private Sub Button4_Click(sender As Object, e As EventArgs) Handles Button4.Click
+        Shell("Explorer.exe https://discord.gg/") 'DISCORD SERVER
+    End Sub
+}
+```
+
+#### NEED HELP?
+Join my discord: https://discord.gg/UFbVtWF  
 
 ###### credits to: Ilyesou
-
-
