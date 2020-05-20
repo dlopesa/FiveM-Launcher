@@ -6,9 +6,9 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{D5EA9276-8205-4AF1-870C-89EA3F4BC0B4}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <StartupObject>NacionalRP.My.MyApplication</StartupObject>
-    <RootNamespace>NacionalRP</RootNamespace>
-    <AssemblyName>Nacional RP</AssemblyName>
+    <StartupObject>FiveM_Launcher.My.MyApplication</StartupObject>
+    <RootNamespace>FiveM_Launcher</RootNamespace>
+    <AssemblyName>FiveM_Launcher</AssemblyName>
     <FileAlignment>512</FileAlignment>
     <MyType>WindowsForms</MyType>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
@@ -37,7 +37,7 @@
     <DefineDebug>true</DefineDebug>
     <DefineTrace>true</DefineTrace>
     <OutputPath>bin\Debug\</OutputPath>
-    <DocumentationFile>Nacional RP.xml</DocumentationFile>
+    <DocumentationFile>FiveM_Launcher.xml</DocumentationFile>
     <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
@@ -47,7 +47,7 @@
     <DefineTrace>true</DefineTrace>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
-    <DocumentationFile>Nacional RP.xml</DocumentationFile>
+    <DocumentationFile>FiveM_Launcher.xml</DocumentationFile>
     <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
   </PropertyGroup>
   <PropertyGroup>
@@ -63,7 +63,8 @@
     <OptionInfer>On</OptionInfer>
   </PropertyGroup>
   <PropertyGroup>
-    <ApplicationIcon>DISCORD_512_X512_Prancheta_1.ico</ApplicationIcon>
+    <ApplicationIcon>
+    </ApplicationIcon>
   </PropertyGroup>
   <PropertyGroup>
     <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
@@ -147,10 +148,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
-    <None Include="Resources\a.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\b.png" />
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">
@@ -165,13 +162,10 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="b.ico" />
     <Content Include="DISCORD_512_X512_Prancheta_1.ico" />
-    <None Include="Resources\DISCORD_512_X512_Prancheta_11.png" />
+    <None Include="Resources\1609871.png" />
     <None Include="Resources\Untitled-2.png" />
     <None Include="Resources\9161613bf9e9a83fe0d2072a70cd8260.jpg" />
-    <None Include="Resources\Sem_titulo-1_Prancheta_1.png" />
-    <None Include="Resources\DISCORD_512_X512_Prancheta_1.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>

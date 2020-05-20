@@ -2,7 +2,7 @@
     Dim drag As Boolean
     Dim mousex As Integer
     Dim mousey As Integer
-    '                                                    [START-DRAG] (Possiblita o pessoal a mexer o form)
+    '                                                    
     Private Sub Launcher_MouseDown(sender As Object, e As MouseEventArgs) Handles MyBase.MouseDown
         drag = True
         mousex = Cursor.Position.X - Me.Left
@@ -20,33 +20,28 @@
     Private Sub Launcher_MouseUp(sender As Object, e As MouseEventArgs) Handles MyBase.MouseUp
         drag = False
     End Sub
-    '                                                   [START-END] (Possiblita o pessoal a mexer o form)
+    '                                                   
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
-        Me.Close() ' Fecha o launcher 
+        Me.Close() ' 
     End Sub
 
     Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
-        Me.WindowState = FormWindowState.Minimized 'Minimiza o launcher 
+        Me.WindowState = FormWindowState.Minimized
     End Sub
 
+    '                                   CONFIG
     Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
-        Shell("Explorer.exe fivem://connect/185.113.141.65:30120") 'Abre o FiveM e da connect ao server
-        Shell("Explorer.exe ts3server://185.113.141.230:9994?password=nacionalrp") 'Abre o TS3 e da connect ao server (o user tem de por a pass a 1 vez que liga o pc)
+        Shell("Explorer.exe fivem://connect/localhost") 'SERVER IP
+        Shell("Explorer.exe ts3server://localhost") ' TEAMSPEAL IP
         Me.Close()
     End Sub
 
     Private Sub Button4_Click(sender As Object, e As EventArgs) Handles Button4.Click
-        Shell("Explorer.exe https://discord.gg/txBqeJB") 'Discord de candidaturas
+        Shell("Explorer.exe https://discord.gg/") 'DISCORD SERVER
     End Sub
 
     Private Sub Creditos(sender As Object, e As EventArgs) Handles Button4.Click, PictureBox2.Click
-        Shell("Explorer.exe https://www.twitch.tv/dosermind") 'Se quiserem deixar é sempre uma ajuda :) | O evento está no na imagem "PictureBox2"
+        Shell("Explorer.exe https://github.com/dosermind")
     End Sub
 
 End Class
-
-'                           FAQ
-' 1 - Porque fiz isto?
-' Como sabem fui de ferias e então já que nao tinha como ajudar o server jogando decidi fazer um  launcher (a pedido nas sugestões)
-' 2 - Porque há antivirus que dão positivo
-' Nao sei mas posso garantir que é seguro usarem

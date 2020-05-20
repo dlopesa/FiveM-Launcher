@@ -8,7 +8,7 @@ Imports System.Runtime.InteropServices
 
 ' Vérifiez les valeurs des attributs de l'assembly
 
-<Assembly: AssemblyTitle("Nacional RP")>
+<Assembly: AssemblyTitle("FiveM_Launcher")>
 <Assembly: AssemblyDescription("Launcher by: doser")>
 <Assembly: AssemblyCompany("Launcher by: doser")>
 <Assembly: AssemblyProduct("Launcher by: doser")>

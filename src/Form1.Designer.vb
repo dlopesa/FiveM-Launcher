@@ -38,10 +38,10 @@ Partial Class Launcher
         'PictureBox1
         '
         PictureBox1.BackColor = System.Drawing.Color.Transparent
-        PictureBox1.Image = Global.NacionalRP.My.Resources.Resources.DISCORD_512_X512_Prancheta_11
-        PictureBox1.Location = New System.Drawing.Point(253, 12)
+        PictureBox1.Image = Global.FiveM_Launcher.My.Resources.Resources._1609871
+        PictureBox1.Location = New System.Drawing.Point(311, 84)
         PictureBox1.Name = "PictureBox1"
-        PictureBox1.Size = New System.Drawing.Size(512, 449)
+        PictureBox1.Size = New System.Drawing.Size(287, 294)
         PictureBox1.TabIndex = 10
         PictureBox1.TabStop = False
         '
@@ -127,7 +127,7 @@ Partial Class Launcher
         'PictureBox2
         '
         Me.PictureBox2.BackColor = System.Drawing.Color.Transparent
-        Me.PictureBox2.Image = Global.NacionalRP.My.Resources.Resources.Untitled_2
+        Me.PictureBox2.Image = Global.FiveM_Launcher.My.Resources.Resources.Untitled_2
         Me.PictureBox2.Location = New System.Drawing.Point(1, 497)
         Me.PictureBox2.Name = "PictureBox2"
         Me.PictureBox2.Size = New System.Drawing.Size(177, 29)
@@ -138,7 +138,7 @@ Partial Class Launcher
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.BackgroundImage = Global.NacionalRP.My.Resources.Resources._9161613bf9e9a83fe0d2072a70cd8260
+        Me.BackgroundImage = Global.FiveM_Launcher.My.Resources.Resources._9161613bf9e9a83fe0d2072a70cd8260
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center
         Me.ClientSize = New System.Drawing.Size(961, 519)
         Me.Controls.Add(Me.PictureBox2)
@@ -152,7 +152,7 @@ Partial Class Launcher
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Name = "Launcher"
-        Me.Text = "FiveM Portugal"
+        Me.Text = "Launcher"
         CType(PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
