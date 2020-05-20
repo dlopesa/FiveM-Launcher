@@ -2,7 +2,7 @@
  > FORK IT AND MAKE YOUR OWN CHANGES
  
  ## Preview
-![Example](https://imgur.com/pt0NhMn)   
+![Example](https://i.imgur.com/pt0NhMn.png)   
 
 ## Configuration
 
