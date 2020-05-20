@@ -1,9 +1,10 @@
 # HOW TO HELP?
- > FORK IT AND MAKE YOUR OWN CHANGES   
+ > FORK IT AND MAKE YOUR OWN CHANGES
+ 
+ ## Preview
+![Example](https://imgur.com/pt0NhMn)   
 
 ## Configuration
-![Teste](https://www.dafont.com/forum/attach/orig/8/2/824336.jpg)
-Format: ![Alt Text](url)
 
 ```javascript
 {
