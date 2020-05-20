@@ -2,7 +2,8 @@
  > FORK IT AND MAKE YOUR OWN CHANGES   
 
 ## Configuration
-
+![GitHub Logo](/src/EX.png)
+Format: ![Alt Text](url)
 
 ```javascript
 {
