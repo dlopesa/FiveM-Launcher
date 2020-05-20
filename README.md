@@ -2,7 +2,7 @@
  > FORK IT AND MAKE YOUR OWN CHANGES   
 
 ## Configuration
-![GitHub Logo](/src/EX.png)
+![Teste](https://www.dafont.com/forum/attach/orig/8/2/824336.jpg)
 Format: ![Alt Text](url)
 
 ```javascript
